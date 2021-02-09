@@ -136,6 +136,9 @@ See the included manpage or run:
 ```
 $ memtier_benchmark --help
 ```
+See the example of running docker 
+```
+$ docker run --rm redislabs/memtier_benchmark -s [ROF Container IP] -p [ROF Port] -P memcache_binary -t 32 -n 10000 –ratio 1:1 -c 25 -x 10 -d 100 –key-pattern S:S
 
 for command line options.
 
